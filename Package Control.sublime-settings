@@ -5,8 +5,11 @@
 	],
 	"installed_packages":
 	[
+		"All Autocomplete",
 		"AutoDocstring",
 		"Better CoffeeScript",
+		"Bootstrap 3 Jade Snippets",
+		"BracketHighlighter",
 		"CodeComplice",
 		"Compare Side-By-Side",
 		"Djaneiro",
@@ -14,6 +17,7 @@
 		"Emmet",
 		"Evernote",
 		"GitGutter",
+		"Jade",
 		"LoremGibson",
 		"MagicPython",
 		"Package Control",
@@ -22,6 +26,7 @@
 		"Python Breakpoints",
 		"Python Imports Sorter",
 		"Restructured Text (RST) Snippets",
+		"Sass",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
