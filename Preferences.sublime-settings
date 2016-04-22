@@ -4,7 +4,7 @@
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/amCoder (Bright) (SL).tmTheme",
 	"find_selected_text": true,
-	"font_size": 13,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
