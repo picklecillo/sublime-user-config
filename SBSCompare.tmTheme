@@ -628,7 +628,7 @@
                 <key>foreground</key>
                 <string>#DDB700</string>
             </dict>
-        </dict><dict><key>name</key><string>Comparison added</string><key>scope</key><string>comparison.added</string><key>settings</key><dict><key>background</key><string>#a3be8c</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison modified</string><key>scope</key><string>comparison.modified</string><key>settings</key><dict><key>background</key><string>#7fa3c7</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison removed</string><key>scope</key><string>comparison.removed</string><key>settings</key><dict><key>background</key><string>#bf616a</string><key>foreground</key><string>#2b303b</string></dict></dict></array>
+        </dict><dict><key>name</key><string>Comparison removed</string><key>scope</key><string>comparison.removed</string><key>settings</key><dict><key>background</key><string>#bf616a</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison added</string><key>scope</key><string>comparison.added</string><key>settings</key><dict><key>background</key><string>#a3be8c</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison modified</string><key>scope</key><string>comparison.modified</string><key>settings</key><dict><key>background</key><string>#7fa3c7</string><key>foreground</key><string>#2b303b</string></dict></dict></array>
     <key>uuid</key>
     <string>8FDBC15C-3C53-4E9E-9213-7AC5D0103AB8</string>
     <key>colorSpaceName</key>
