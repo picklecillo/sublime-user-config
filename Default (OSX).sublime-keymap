@@ -3,4 +3,6 @@
 
     { "keys": ["ctrl+tab"], "command": "next_view" },
     { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+    { "keys": ["super+alt+ctrl+right"], "command": "goto_python_definition"},
 ]
