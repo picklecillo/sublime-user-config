@@ -12,6 +12,7 @@
                 "args": [],
                 "builtins": "",
                 "excludes": [],
+                "executable": "",
                 "ignore": "",
                 "jobs": "1",
                 "max-complexity": -1,
@@ -30,7 +31,9 @@
         },
         "python_paths": {
             "linux": [],
-            "osx": [],
+            "osx": [
+                "/usr/bin/"
+            ],
             "windows": []
         },
         "rc_search_limit": 3,
