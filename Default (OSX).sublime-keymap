@@ -6,4 +6,6 @@
 
     { "keys": ["super+alt+ctrl+right"], "command": "goto_python_definition"},
     { "keys": ["ctrl+alt+s"], "command": "reveal_in_side_bar" },
+    { "keys": ["ctrl+keypad_enter"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
 ]
