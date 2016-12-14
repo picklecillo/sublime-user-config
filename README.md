@@ -1,5 +1,5 @@
 # sublime-user-config
-My Sublime Text 3 user config
+Sublime Text dev setup
 
 For pdb I also use this -> https://pypi.python.org/pypi/PdbSublimeTextSupport
 
@@ -8,25 +8,31 @@ For pdb I also use this -> https://pypi.python.org/pypi/PdbSublimeTextSupport
 * AutoDocstring
 * Better CoffeeScript
 * Bootstrap 3 Jade Snippets
+* Bootstrap 3 Snippets
 * BracketHighlighter
-* CodeComplice
+* Color Highlighter
 * Compare Side-By-Side
 * Djaneiro
 * Django
+* Dockerfile Syntax Highlighting
 * Emmet
-* Evernote
 * GitGutter
+* GitHub Markdown Snippets
+* Handlebars
+* HTML-CSS-JS Prettify
 * Jade
 * LoremGibson
 * MagicPython
+* Origami
 * Package Control
+* PackageResourceViewer
 * Pane Resizer
 * Pretty JSON
 * Python Breakpoints
 * Python Imports Sorter
-* Restructured Text (RST) Snippets
 * Sass
 * SideBarEnhancements
+* SublimeCodeIntel
 * SublimeLinter
 * SublimeLinter-flake8
 * Theme - amCoder
