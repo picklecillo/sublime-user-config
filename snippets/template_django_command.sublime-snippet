@@ -1,0 +1,59 @@
+<snippet>
+    <content><![CDATA[
+from datetime import date
+import logging
+from optparse import make_option
+
+from django.core.management.base import BaseCommand
+from django.core.management.base import CommandError
+
+from cdecsic_mvp.apps.ops.utils import parse_input_date
+
+logger = logging.getLogger('commands')
+
+
+class Command(BaseCommand):
+    start = date.today()
+    end = date.today()
+    option_list = BaseCommand.option_list + (
+        make_option(
+            '-f', '--from_date',
+            action='store',
+            dest='from_date',
+            default='%s-%s-%s' % (start.year, start.month, 1),
+            help='The date when file reading should start.',
+        ),
+        make_option(
+            '-t', '--to_date',
+            action='store',
+            dest='to_date',
+            default='%s-%s-%s' % (end.year, end.month, end.day),
+            help='The date when file reading should stop.',
+        ),
+    )
+
+    def handle(self, **options):
+
+        try:
+            from_date = parse_input_date(options['from_date'])
+            to_date = parse_input_date(options['to_date'])
+             # parse other options
+        except KeyError as e:
+            logger.error('ERROR: {}'.format(e), exc_info=e, stack_info=True)
+
+
+        try:
+            logger.info('Started ${1} with params: {}'.format(options))
+
+            # do something
+
+            logger.info('Finished ${1}')
+        except Exception as e:
+            raise CommandError(e)
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>template_django_command</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

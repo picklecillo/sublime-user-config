@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+make_option(
+    '-${1}', '--${1}',
+    action='${2:store}',
+    dest='${1}',
+    default='${3}',
+    help='${4}',
+),
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>template_make_option</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
