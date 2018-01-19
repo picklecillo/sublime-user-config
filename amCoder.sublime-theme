@@ -544,31 +544,33 @@
         "color": [110, 110, 110], // light-2
         "font.bold": false,
         "font.italic": false,
-        "font.size": 16
+        "font.size": 14
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "color": [110, 110, 110], // light-2
-        "font.size": 14
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
         "color": [180, 180, 180], // light-1
+        "font.size": 14
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
-        "font.bold": true
+        "font.bold": true,
+        "font.size": 14
     },
     // Sidebar entry selected
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [150, 150, 255] // light-0
+        "color": [150, 150, 255], // light-0
+        "font.size": 12
     },
     // Sidebar entry transient
     {

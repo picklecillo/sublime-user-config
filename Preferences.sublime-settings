@@ -2,14 +2,15 @@
 	"auto_complete_commit_on_tab": false,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/amCoder (Bright) (SL).tmTheme",
+	"color_scheme": "Packages/User/amCoder (SL) (Flake8Lint).tmTheme",
 	"find_selected_text": true,
-	"font_size": 19,
+	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Python",
+		"Python Flake8 Lint",
 		"Python3",
 		"Vintage"
 	],
@@ -17,6 +18,7 @@
 	"line_padding_top": 1,
 	"rulers":
 	[
+		80,
 		100
 	],
 	"scroll_past_end": true,

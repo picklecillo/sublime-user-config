@@ -21,7 +21,9 @@
 		"GitHub Markdown Snippets",
 		"Handlebars",
 		"HTML-CSS-JS Prettify",
+		"Indent XML",
 		"Jade",
+		"JSX",
 		"LoremGibson",
 		"MagicPython",
 		"Origami",
@@ -30,13 +32,16 @@
 		"Pane Resizer",
 		"Pretty JSON",
 		"Python Breakpoints",
+		"Python Flake8 Lint",
 		"Python Imports Sorter",
 		"Sass",
 		"SideBarEnhancements",
+		"Stylus",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
 		"Theme - amCoder",
+		"TodoReview",
 		"TrailingSpaces"
 	]
 }

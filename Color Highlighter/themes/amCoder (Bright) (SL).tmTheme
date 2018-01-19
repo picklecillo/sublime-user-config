@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
- "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
 <dict>
     <key>name</key>
-    <string>amCoder</string>
+    <string>amCoder (Bright)</string>
     <key>settings</key>
     <array>
 <dict>
@@ -35,6 +35,38 @@
 <string>#008000FF</string>
 <key>caret</key>
 <string>#7FFF7FFF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_FFFFFFFF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#FFFFFFFF</string>
+<key>foreground</key>
+<string>#000000FF</string>
+<key>caret</key>
+<string>#000000FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_FFFFFFFF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#1C1C1dFF</string>
+<key>foreground</key>
+<string>#FFFFFFFF</string>
+<key>caret</key>
+<string>#000000FF</string>
 </dict>
 </dict>
 
@@ -79,11 +111,15 @@
                 <string>#6E6E6E</string>
 
                 <key>selection</key>
-                <string>#404040</string>
+                <string>#CCC47A</string>
                 <key>selectionBorder</key>
-                <string>#6E6E6E</string>
+                <string>#CCC47A</string>
+                <key>selectionForeground</key>
+                <string>#1C1C1C</string>
                 <key>inactiveSelection</key>
-                <string>#242424</string>
+                <string>#CECECE</string>
+                <key>inactiveSelectionForeground</key>
+                <string>#1C1C1C</string>
 
                 <key>guide</key>
                 <string>#404040</string>
@@ -628,16 +664,6 @@
 
     <dict>
             <key>name</key>
-            <string>SublimeLinter Error</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D02000</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Warning</string>
             <key>scope</key>
             <string>sublimelinter.mark.warning</string>
@@ -645,6 +671,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#DDB700</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D02000</string>
             </dict>
         </dict><dict>
             <key>name</key>
@@ -656,49 +692,9 @@
                 <key>foreground</key>
                 <string>#FFFFFF</string>
             </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>Python Flake8 Lint Critical</string>
-            <key>scope</key>
-            <string>flake8lint.mark.critical</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#981600</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>Python Flake8 Lint Warning</string>
-            <key>scope</key>
-            <string>flake8lint.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#EDBA00</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>Python Flake8 Lint Gutter Mark</string>
-            <key>scope</key>
-            <string>flake8lint.mark.gutter</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>Python Flake8 Lint Error</string>
-            <key>scope</key>
-            <string>flake8lint.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DA2000</string>
-            </dict>
-        </dict><dict><key>name</key><string>Comparison removed</string><key>scope</key><string>comparison.removed</string><key>settings</key><dict><key>background</key><string>#bf616a</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison modified_addition</string><key>scope</key><string>comparison.modified_addition</string><key>settings</key><dict><key>background</key><string>#7fa3c7</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison added</string><key>scope</key><string>comparison.added</string><key>settings</key><dict><key>background</key><string>#a3be8c</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison modified_deletion</string><key>scope</key><string>comparison.modified_deletion</string><key>settings</key><dict><key>background</key><string>#7fa3c7</string><key>foreground</key><string>#2b303b</string></dict></dict></array>
+        </dict></array>
     <key>uuid</key>
-    <string>9EC2F669-2917-4C31-AAF1-A62E64137320</string>
+    <string>8FDBC15C-3C53-4E9E-9213-7AC5D0103AB8</string>
     <key>colorSpaceName</key>
     <string>sRGB</string>
     <key>semanticClass</key>

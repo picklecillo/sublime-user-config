@@ -1,6 +1,5 @@
 {
     // list of python modules of your project, to be sorted correctly.
     "project_modules": [
-        "cdecsic_mvp",
     ]
 }
