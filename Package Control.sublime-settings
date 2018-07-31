@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Autocomplete Javascript with Method Signature",
 		"AutoDocstring",
 		"Babel",
 		"Better CoffeeScript",
@@ -26,6 +27,7 @@
 		"Jade",
 		"LoremGibson",
 		"MagicPython",
+		"nginx",
 		"Origami",
 		"Package Control",
 		"PackageResourceViewer",
@@ -34,6 +36,7 @@
 		"Python Breakpoints",
 		"Python Flake8 Lint",
 		"Python Imports Sorter",
+		"React ES6 Snippets",
 		"Sass",
 		"SideBarEnhancements",
 		"Stylus",
