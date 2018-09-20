@@ -1,39 +1,60 @@
 # sublime-user-config
 Sublime Text dev setup
 
-For pdb I also use this -> https://pypi.python.org/pypi/PdbSublimeTextSupport
+clone into `~/Library/Application Support/Sublime Text 3/Packages/User`
+
 
 # Packages
+
+## Autocomplete
 * All Autocomplete
+* LoremGibson
+
+## Snippets
 * AutoDocstring
-* Better CoffeeScript
 * Bootstrap 3 Jade Snippets
 * Bootstrap 3 Snippets
+* Django
+
+## IDE lol
+* Better CoffeeScript
+* Djaneiro
+* SublimeCodeIntel
+
+## Highlighters
 * BracketHighlighter
 * Color Highlighter
-* Compare Side-By-Side
-* Djaneiro
-* Django
 * Dockerfile Syntax Highlighting
+* Handlebars
+* Sass
+* Jade
+* MagicPython
+
+## Enhancements
 * Emmet
+* Origami
+* SideBarEnhancements
+* Compare Side-By-Side
+
+## Git
 * GitGutter
 * GitHub Markdown Snippets
-* Handlebars
-* HTML-CSS-JS Prettify
-* Jade
-* LoremGibson
-* MagicPython
-* Origami
-* Package Control
-* PackageResourceViewer
-* Pane Resizer
-* Pretty JSON
+
+## Python
 * Python Breakpoints
 * Python Imports Sorter
-* Sass
-* SideBarEnhancements
-* SublimeCodeIntel
 * SublimeLinter
 * SublimeLinter-flake8
+
+## Themes
 * Theme - amCoder
+
+## Prettify
+* HTML-CSS-JS Prettify
+* Pretty JSON
 * TrailingSpaces
+
+
+# Others
+- Iterm2 tabs setup -> https://github.com/TomAnthony/itermocil
+- Pdb + sublime -> https://pypi.python.org/pypi/PdbSublimeTextSupport
