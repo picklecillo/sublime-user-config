@@ -25,4 +25,6 @@
         "command": "swap_brackets"
     },
     { "keys": ["ctrl+alt+super+left"], "command": "jump_back" },
+    { "keys": ["super+k", "super+z"], "command": "zoom_pane", "args": {"fraction": 0.9} },
+
 ]
