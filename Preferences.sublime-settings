@@ -28,6 +28,7 @@
 		"PHP",
 		"Python",
 		"Python Flake8 Lint",
+		"Python Imports Sorter",
 		"Python3",
 		"R",
 		"Ruby",
@@ -35,7 +36,7 @@
 		"Scala",
 		"SublimeCodeIntel",
 		"tern_for_sublime",
-		"Vintage"
+		"Vintage",
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
@@ -48,5 +49,7 @@
 	"theme": "amCoder.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"wide_caret": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"hot_exit": "only_on_quit",
+	"close_windows_when_empty": false,
 }

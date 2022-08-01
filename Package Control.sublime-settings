@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Python Imports Sorter",
 	],
 	"installed_packages":
 	[
@@ -9,7 +10,6 @@
 		"Autocomplete Javascript with Method Signature",
 		"AutoDocstring",
 		"Babel",
-		"Better CoffeeScript",
 		"Bootstrap 3 Jade Snippets",
 		"Bootstrap 3 Snippets",
 		"BracketHighlighter",
@@ -46,6 +46,6 @@
 		"tern_for_sublime",
 		"Theme - amCoder",
 		"TodoReview",
-		"TrailingSpaces"
-	]
+		"TrailingSpaces",
+	],
 }
